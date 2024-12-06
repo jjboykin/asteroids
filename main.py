@@ -32,6 +32,7 @@ def main ():
 
         # Drawing (render graphics)
         screen.fill("black")
+        player.update(dt)
         player.draw(screen)
 
         # Update the display
